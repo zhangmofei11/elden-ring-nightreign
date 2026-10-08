@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elden Ring Nightreign - Complete Guide & Wiki</title>
+    <meta name="description" content="Your ultimate guide to Elden Ring Nightreign. Complete walkthrough, boss strategies, build guides, character classes, and tips for the cooperative soulslike game.">
+    <meta name="keywords" content="Elden Ring Nightreign, Elden Ring Nightreign guide, Elden Ring Nightreign wiki, Nightreign build, Nightreign coop, Elden Ring DLC">
+    <link rel="canonical" href="https://elden-ring-nightreign.wiki/">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        gold: { 300: '#FCD34D', 400: '#FBBF24', 500: '#F59E0B', 600: '#D97706' },
+                        obsidian: { 900: '#0a0a0f', 800: '#12121a', 700: '#1a1a25', 600: '#252535' },
+                        amber: { 500: '#F59E0B', 600: '#D97706' }
+                    },
+                    fontFamily: { 'cinzel': ['Cinzel', 'serif'], 'inter': ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        * { box-sizing: border-box; }
+        body { background: radial-gradient(ellipse at top, #1a1510 0%, #0a0a0f 50%, #050508 100%); min-height: 100vh; font-family: 'Inter', sans-serif; }
+        .glass { background: rgba(18, 18, 26, 0.7); backdrop-filter: blur(20px); border: 1px solid rgba(255, 255, 255, 0.05); }
+        .glass-card { background: linear-gradient(135deg, rgba(26, 26, 37, 0.9) 0%, rgba(18, 18, 26, 0.9) 100%); border: 1px solid rgba(255, 255, 255, 0.08); }
+        .card-hover { transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
+        .card-hover:hover { transform: translateY(-4px); border-color: rgba(245, 158, 11, 0.3); }
+        .gold-glow { text-shadow: 0 0 20px rgba(245, 158, 11, 0.5); }
+        .section-card { background: linear-gradient(135deg, rgba(30, 25, 20, 0.95) 0%, rgba(15, 12, 10, 0.95) 100%); border: 1px solid rgba(245, 158, 11, 0.15); }
+    </style>
+</head>
+<body class="text-gray-100 antialiased">
+    <header class="glass sticky top-0 z-50 border-b border-white/5">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex items-center justify-between h-20">
+                <a href="/" class="flex items-center space-x-4">
+                    <div class="w-12 h-12 bg-gradient-to-br from-amber-500 to-amber-600 rounded-xl flex items-center justify-center shadow-lg shadow-amber-500/20">
+                        <span class="font-cinzel font-bold text-black text-lg">EN</span>
+                    </div>
+                    <div>
+                        <span class="font-cinzel font-bold text-xl text-white tracking-wide">Elden Ring</span>
+                        <span class="block text-xs text-amber-400/70">Nightreign Guide</span>
+                    </div>
+                </a>
+                <nav class="hidden lg:flex items-center space-x-1">
+                    <a href="/" class="px-5 py-2 text-amber-400 bg-amber-500/10 rounded-lg border border-amber-500/30 font-medium">Home</a>
+                    <a href="walkthrough.html" class="px-5 py-2 text-gray-300 hover:text-white hover:bg-white/5 rounded-lg transition-all">Walkthrough</a>
+                    <a href="builds.html" class="px-5 py-2 text-gray-300 hover:text-white hover:bg-white/5 rounded-lg transition-all">Builds</a>
+                    <a href="bosses.html" class="px-5 py-2 text-gray-300 hover:text-white hover:bg-white/5 rounded-lg transition-all">Bosses</a>
+                    <a href="classes.html" class="px-5 py-2 text-gray-300 hover:text-white hover:bg-white/5 rounded-lg transition-all">Classes</a>
+                    <a href="tips.html" class="px-5 py-2 text-gray-300 hover:text-white hover:bg-white/5 rounded-lg transition-all">Tips</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="relative overflow-hidden">
+            <div class="absolute inset-0 bg-gradient-to-b from-amber-500/5 via-transparent to-transparent"></div>
+            <div class="max-w-7xl mx-auto px-6 py-20 relative">
+                <div class="text-center max-w-4xl mx-auto">
+                    <div class="inline-flex items-center gap-2 px-4 py-2 bg-amber-500/10 rounded-full border border-amber-500/30 mb-6">
+                        <span class="w-2 h-2 bg-amber-400 rounded-full animate-pulse"></span>
+                        <span class="text-amber-400 text-sm font-medium">Complete Wiki & Strategy Guide</span>
+                    </div>
+                    <h1 class="font-cinzel text-5xl md:text-6xl font-bold text-white mb-6 gold-glow">
+                        Elden Ring <span class="text-amber-400">Nightreign</span>
+                    </h1>
+                    <p class="text-gray-400 text-xl mb-8 max-w-2xl mx-auto">
+                        Your complete guide to FromSoftware's cooperative soulslike. Master builds, defeat bosses, and survive the Night.
+                    </p>
+                    <div class="flex flex-wrap justify-center gap-4">
+                        <a href="#features" class="px-8 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-semibold rounded-xl hover:from-amber-400 hover:to-amber-500 transition-all shadow-lg shadow-amber-500/25">
+                            Explore Guide
+                        </a>
+                        <a href="walkthrough.html" class="px-8 py-3 bg-white/5 border border-white/20 text-white font-semibold rounded-xl hover:bg-white/10 transition-all">
+                            Start Walkthrough
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Game Stats -->
+        <section class="py-12 border-t border-b border-white/5 bg-black/20">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <div class="text-center">
+                        <div class="text-3xl font-cinzel font-bold text-amber-400 mb-1">2025</div>
+                        <div class="text-gray-500 text-sm">Release Year</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-cinzel font-bold text-amber-400 mb-1">FromSoftware</div>
+                        <div class="text-gray-500 text-sm">Developer</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-cinzel font-bold text-amber-400 mb-1">1-3</div>
+                        <div class="text-gray-500 text-sm">Co-op Players</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-cinzel font-bold text-amber-400 mb-1">Action RPG</div>
+                        <div class="text-gray-500 text-sm">Genre</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="py-16">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="font-cinzel text-3xl font-bold text-white mb-4">Guide Sections</h2>
+                    <p class="text-gray-400 max-w-2xl mx-auto">Everything you need to survive the Night</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <a href="walkthrough.html" class="section-card card-hover rounded-2xl p-6 group">
+                        <div class="w-14 h-14 bg-amber-500/20 rounded-xl flex items-center justify-center mb-4 border border-amber-500/30 group-hover:border-amber-400 transition-colors">
+                            <svg class="w-7 h-7 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/></svg>
+                        </div>
+                        <h3 class="font-cinzel text-xl font-bold text-white mb-2">Walkthrough</h3>
+                        <p class="text-gray-400 text-sm">Complete story walkthrough with all objectives, collectibles, and secret areas.</p>
+                        <span class="text-amber-400 text-sm mt-4 inline-block group-hover:underline">Explore →</span>
+                    </a>
+                    <a href="builds.html" class="section-card card-hover rounded-2xl p-6 group">
+                        <div class="w-14 h-14 bg-amber-500/20 rounded-xl flex items-center justify-center mb-4 border border-amber-500/30 group-hover:border-amber-400 transition-colors">
+                            <svg class="w-7 h-7 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                        </div>
+                        <h3 class="font-cinzel text-xl font-bold text-white mb-2">Build Guides</h3>
+                        <p class="text-gray-400 text-sm">Optimal builds for every class. Stats, weapons, skills, and equipment recommendations.</p>
+                        <span class="text-amber-400 text-sm mt-4 inline-block group-hover:underline">Explore →</span>
+                    </a>
+                    <a href="bosses.html" class="section-card card-hover rounded-2xl p-6 group">
+                        <div class="w-14 h-14 bg-amber-500/20 rounded-xl flex items-center justify-center mb-4 border border-amber-500/30 group-hover:border-amber-400 transition-colors">
+                            <svg class="w-7 h-7 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
+                        </div>
+                        <h3 class="font-cinzel text-xl font-bold text-white mb-2">Boss Strategies</h3>
+                        <p class="text-gray-400 text-sm">Detailed tactics for every boss. Attack patterns, weaknesses, and reward strategies.</p>
+                        <span class="text-amber-400 text-sm mt-4 inline-block group-hover:underline">Explore →</span>
+                    </a>
+                    <a href="classes.html" class="section-card card-hover rounded-2xl p-6 group">
+                        <div class="w-14 h-14 bg-amber-500/20 rounded-xl flex items-center justify-center mb-4 border border-amber-500/30 group-hover:border-amber-400 transition-colors">
+                            <svg class="w-7 h-7 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                        </div>
+                        <h3 class="font-cinzel text-xl font-bold text-white mb-2">Classes</h3>
+                        <p class="text-gray-400 text-sm">All available classes. Strengths, weaknesses, and best playstyles for co-op.</p>
+                        <span class="text-amber-400 text-sm mt-4 inline-block group-hover:underline">Explore →</span>
+                    </a>
+                    <a href="tips.html" class="section-card card-hover rounded-2xl p-6 group">
+                        <div class="w-14 h-14 bg-amber-500/20 rounded-xl flex items-center justify-center mb-4 border border-amber-500/30 group-hover:border-amber-400 transition-colors">
+                            <svg class="w-7 h-7 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
+                        </div>
+                        <h3 class="font-cinzel text-xl font-bold text-white mb-2">Tips & Tricks</h3>
+                        <p class="text-gray-400 text-sm">Advanced strategies, hidden secrets, and farming methods to maximize your runs.</p>
+                        <span class="text-amber-400 text-sm mt-4 inline-block group-hover:underline">Explore →</span>
+                    </a>
+                    <div class="section-card rounded-2xl p-6 border border-amber-500/10">
+                        <div class="w-14 h-14 bg-amber-500/10 rounded-xl flex items-center justify-center mb-4 border border-amber-500/20">
+                            <svg class="w-7 h-7 text-amber-400/50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                        </div>
+                        <h3 class="font-cinzel text-xl font-bold text-white/50 mb-2">More Coming Soon</h3>
+                        <p class="text-gray-500 text-sm">Additional guides and updates will be added as the game expands.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Game Features -->
+        <section class="py-16 bg-black/20 border-t border-white/5">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="font-cinzel text-3xl font-bold text-white mb-4">Game Features</h2>
+                    <p class="text-gray-400">What makes Nightreign unique</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="glass-card rounded-xl p-5 text-center">
+                        <div class="text-4xl mb-3">👥</div>
+                        <h3 class="font-cinzel text-lg font-bold text-white mb-2">Co-op Focus</h3>
+                        <p class="text-gray-400 text-sm">Team up with 2 other players for unique 3-player experiences</p>
+                    </div>
+                    <div class="glass-card rounded-xl p-5 text-center">
+                        <div class="text-4xl mb-3">🌙</div>
+                        <h3 class="font-cinzel text-lg font-bold text-white mb-2">Night Cycle</h3>
+                        <p class="text-gray-400 text-sm">Survive through increasingly difficult Night stages</p>
+                    </div>
+                    <div class="glass-card rounded-xl p-5 text-center">
+                        <div class="text-4xl mb-3">⚔️</div>
+                        <h3 class="font-cinzel text-lg font-bold text-white mb-2">New Classes</h3>
+                        <p class="text-gray-400 text-sm">Unique character classes with distinct abilities</p>
+                    </div>
+                    <div class="glass-card rounded-xl p-5 text-center">
+                        <div class="text-4xl mb-3">🏰</div>
+                        <h3 class="font-cinzel text-lg font-bold text-white mb-2">Roguelike Elements</h3>
+                        <p class="text-gray-400 text-sm">Permadeath runs with permanent progression</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-obsidian-900 border-t border-white/5 py-12 mt-12">
+        <div class="max-w-7xl mx-auto px-6 text-center text-gray-500 text-sm">
+            <p>&copy; 2025 Elden Ring Nightreign Guide. All rights reserved. Not affiliated with FromSoftware or Bandai Namco.</p>
+        </div>
+    </footer>
+</body>
+</html>

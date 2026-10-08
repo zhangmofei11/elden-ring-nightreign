@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tips & Tricks - Elden Ring Nightreign Complete Guide</title>
+    <meta name="description" content="Elden Ring Nightreign tips and tricks. Advanced strategies, hidden secrets, farming methods, and co-op coordination tips.">
+    <meta name="keywords" content="Elden Ring Nightreign tips, Nightreign tricks, Nightreign hidden secrets, farming, co-op tips">
+    <link rel="canonical" href="https://elden-ring-nightreign.wiki/tips.html">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        gold: { 300: '#FCD34D', 400: '#FBBF24', 500: '#F59E0B', 600: '#D97706' },
+                        obsidian: { 900: '#0a0a0f', 800: '#12121a', 700: '#1a1a25', 600: '#252535' },
+                        amber: { 500: '#F59E0B', 600: '#D97706' }
+                    },
+                    fontFamily: { 'cininzel': ['Cinzel', 'serif'], 'inter': ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        * { box-sizing: border-box; }
+        body { background: radial-gradient(ellipse at top, #1a1510 0%, #0a0a0f 50%, #050508 100%); min-height: 100vh; font-family: 'Inter', sans-serif; }
+        .glass { background: rgba(18, 18, 26, 0.7); backdrop-filter: blur(20px); border: 1px solid rgba(255, 255, 255, 0.05); }
+        .card-hover { transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
+        .card-hover:hover { transform: translateY(-4px); border-color: rgba(245, 158, 11, 0.3); }
+        .tip-card { background: linear-gradient(135deg, rgba(30, 25, 20, 0.95) 0%, rgba(15, 12, 10, 0.95) 100%); border: 1px solid rgba(245, 158, 11, 0.15); }
+    </style>
+</head>
+<body class="text-gray-100 antialiased">
+    <header class="glass sticky top-0 z-50 border-b border-white/5">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex items-center justify-between h-20">
+                <a href="/" class="flex items-center space-x-4">
+                    <div class="w-12 h-12 bg-gradient-to-br from-amber-500 to-amber-600 rounded-xl flex items-center justify-center shadow-lg shadow-amber-500/20">
+                        <span class="font-cinzel font-bold text-black text-lg">EN</span>
+                    </div>
+                    <div>
+                        <span class="font-cinzel font-bold text-xl text-white tracking-wide">Elden Ring</span>
+                        <span class="block text-xs text-amber-400/70">Nightreign Guide</span>
+                    </div>
+                </a>
+                <nav class="hidden lg:flex items-center space-x-1">
+                    <a href="/" class="px-5 py-2 text-gray-300 hover:text-white hover:bg-white/5 rounded-lg transition-all">Home</a>
+                    <a href="walkthrough.html" class="px-5 py-2 text-gray-300 hover:text-white hover:bg-white/5 rounded-lg transition-all">Walkthrough</a>
+                    <a href="builds.html" class="px-5 py-2 text-gray-300 hover:text-white hover:bg-white/5 rounded-lg transition-all">Builds</a>
+                    <a href="bosses.html" class="px-5 py-2 text-gray-300 hover:text-white hover:bg-white/5 rounded-lg transition-all">Bosses</a>
+                    <a href="classes.html" class="px-5 py-2 text-gray-300 hover:text-white hover:bg-white/5 rounded-lg transition-all">Classes</a>
+                    <a href="tips.html" class="px-5 py-2 text-amber-400 bg-amber-500/10 rounded-lg border border-amber-500/30 font-medium">Tips</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-6 py-12">
+        <div class="text-center mb-12">
+            <h1 class="font-cinzel text-4xl md:text-5xl font-bold text-white mb-4">Tips & <span class="text-amber-400">Tricks</span></h1>
+            <p class="text-gray-400 max-w-2xl mx-auto text-lg">Advanced strategies and hidden secrets to maximize your runs.</p>
+        </div>
+
+        <!-- Beginner Tips -->
+        <section class="mb-12">
+            <h2 class="font-cinzel text-2xl font-bold text-white mb-6">Beginner Tips</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="tip-card card-hover rounded-xl p-5">
+                    <div class="flex items-start gap-4">
+                        <div class="w-10 h-10 bg-green-500/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <span class="text-green-400 font-bold">1</span>
+                        </div>
+                        <div>
+                            <h3 class="text-white font-semibold mb-2">Stay with Your Team</h3>
+                            <p class="text-gray-400 text-sm">Nightreign is designed for co-op. Don't wander off alone - stick with your team for easier boss fights.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tip-card card-hover rounded-xl p-5">
+                    <div class="flex items-start gap-4">
+                        <div class="w-10 h-10 bg-green-500/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <span class="text-green-400 font-bold">2</span>
+                        </div>
+                        <div>
+                            <h3 class="text-white font-semibold mb-2">Upgrade Rune Wells Early</h3>
+                            <p class="text-gray-400 text-sm">Prioritize finding and activating Rune Wells in each Night. They provide permanent stat boosts.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tip-card card-hover rounded-xl p-5">
+                    <div class="flex items-start gap-4">
+                        <div class="w-10 h-10 bg-green-500/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <span class="text-green-400 font-bold">3</span>
+                        </div>
+                        <div>
+                            <h3 class="text-white font-semibold mb-2">Learn Dodge Timing</h3>
+                            <p class="text-gray-400 text-sm">Perfect dodges give you brief slow-motion windows. Practice this in early Nights before harder content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tip-card card-hover rounded-xl p-5">
+                    <div class="flex items-start gap-4">
+                        <div class="w-10 h-10 bg-green-500/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <span class="text-green-400 font-bold">4</span>
+                        </div>
+                        <div>
+                            <h3 class="text-white font-semibold mb-2">Use Consumables</h3>
+                            <p class="text-gray-400 text-sm">Don't hoard items. Use your flasks and consumables liberally - you respawn at the start of each Night.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Advanced Tips -->
+        <section class="mb-12">
+            <h2 class="font-cinzel text-2xl font-bold text-white mb-6">Advanced Strategies</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <div class="tip-card rounded-2xl p-6">
+                    <h3 class="text-white font-semibold mb-4 flex items-center gap-2">
+                        <svg class="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                        Co-op Tanking
+                    </h3>
+                    <p class="text-gray-400 text-sm mb-3">In co-op, one player should focus on drawing boss aggro while others deal damage. Use shield abilities to hold attention.</p>
+                    <span class="text-xs px-2 py-1 bg-amber-500/20 text-amber-400 rounded">Best: Vagabond class</span>
+                </div>
+                <div class="tip-card rounded-2xl p-6">
+                    <h3 class="text-white font-semibold mb-4 flex items-center gap-2">
+                        <svg class="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                        Status Effects
+                    </h3>
+                    <p class="text-gray-400 text-sm mb-3">Bleed and Frost build up on enemies. Stack these with multiple players using same status weapons for bonus damage.</p>
+                    <span class="text-xs px-2 py-1 bg-purple-500/20 text-purple-400 rounded">Best: Samurai + Bandit combo</span>
+                </div>
+                <div class="tip-card rounded-2xl p-6">
+                    <h3 class="text-white font-semibold mb-4 flex items-center gap-2">
+                        <svg class="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                        Night Cycle Management
+                    </h3>
+                    <p class="text-gray-400 text-sm mb-3">Each Night gets progressively harder. Don't waste resources early - save your best items for Nights 4-5.</p>
+                    <span class="text-xs px-2 py-1 bg-blue-500/20 text-blue-400 rounded">Strategy</span>
+                </div>
+                <div class="tip-card rounded-2xl p-6">
+                    <h3 class="text-white font-semibold mb-4 flex items-center gap-2">
+                        <svg class="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+                        Secret Areas
+                    </h3>
+                    <p class="text-gray-400 text-sm mb-3">Check every corner and behind destructible walls. Secret areas often contain rare equipment and Rune Wells.</p>
+                    <span class="text-xs px-2 py-1 bg-yellow-500/20 text-yellow-400 rounded">Exploration</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hidden Secrets -->
+        <section>
+            <h2 class="font-cinzel text-2xl font-bold text-white mb-6">Hidden Secrets</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="tip-card card-hover rounded-xl p-5">
+                    <div class="w-10 h-10 bg-purple-500/20 rounded-lg flex items-center justify-center mb-3">
+                        <svg class="w-5 h-5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg>
+                    </div>
+                    <h3 class="text-white font-semibold mb-2">Hidden Merchant</h3>
+                    <p class="text-gray-400 text-sm">In Night 2, bomb the wall near the forest entrance. Secret merchant sells exclusive items.</p>
+                </div>
+                <div class="tip-card card-hover rounded-xl p-5">
+                    <div class="w-10 h-10 bg-purple-500/20 rounded-lg flex items-center justify-center mb-3">
+                        <svg class="w-5 h-5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                    </div>
+                    <h3 class="text-white font-semibold mb-2">Double Rune</h3>
+                    <p class="text-gray-400 text-sm">Standing in certain circles doubles Rune pickup. Look for glowing symbols on the ground.</p>
+                </div>
+                <div class="tip-card card-hover rounded-xl p-5">
+                    <div class="w-10 h-10 bg-purple-500/20 rounded-lg flex items-center justify-center mb-3">
+                        <svg class="w-5 h-5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+                    </div>
+                    <h3 class="text-white font-semibold mb-2">Secret Ending</h3>
+                    <p class="text-gray-400 text-sm">Collect all 8 Memory Fragments + spare the Lord of Night once. Unlocks alternate ending.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-obsidian-900 border-t border-white/5 py-12 mt-12">
+        <div class="max-w-7xl mx-auto px-6 text-center text-gray-500 text-sm">
+            <p>&copy; 2025 Elden Ring Nightreign Guide. All rights reserved. Not affiliated with FromSoftware.</p>
+        </div>
+    </footer>
+</body>
+</html>

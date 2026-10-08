@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build Guides - Elden Ring Nightreign Complete Guide</title>
+    <meta name="description" content="Best Elden Ring Nightreign builds for every class. Optimal stat distributions, weapon choices, and equipment for co-op.">
+    <meta name="keywords" content="Elden Ring Nightreign builds, Nightreign build guide, best builds, stat distribution, weapons Nightreign">
+    <link rel="canonical" href="https://elden-ring-nightreign.wiki/builds.html">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        gold: { 300: '#FCD34D', 400: '#FBBF24', 500: '#F59E0B', 600: '#D97706' },
+                        obsidian: { 900: '#0a0a0f', 800: '#12121a', 700: '#1a1a25', 600: '#252535' },
+                        amber: { 500: '#F59E0B', 600: '#D97706' }
+                    },
+                    fontFamily: { 'cinzel': ['Cinzel', 'serif'], 'inter': ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        * { box-sizing: border-box; }
+        body { background: radial-gradient(ellipse at top, #1a1510 0%, #0a0a0f 50%, #050508 100%); min-height: 100vh; font-family: 'Inter', sans-serif; }
+        .glass { background: rgba(18, 18, 26, 0.7); backdrop-filter: blur(20px); border: 1px solid rgba(255, 255, 255, 0.05); }
+        .card-hover { transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
+        .card-hover:hover { transform: translateY(-4px); border-color: rgba(245, 158, 11, 0.3); }
+        .build-card { background: linear-gradient(135deg, rgba(30, 25, 20, 0.95) 0%, rgba(15, 12, 10, 0.95) 100%); border: 1px solid rgba(245, 158, 11, 0.15); }
+        .stat-bar { height: 6px; background: rgba(255, 255, 255, 0.1); border-radius: 3px; overflow: hidden; }
+    </style>
+</head>
+<body class="text-gray-100 antialiased">
+    <header class="glass sticky top-0 z-50 border-b border-white/5">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex items-center justify-between h-20">
+                <a href="/" class="flex items-center space-x-4">
+                    <div class="w-12 h-12 bg-gradient-to-br from-amber-500 to-amber-600 rounded-xl flex items-center justify-center shadow-lg shadow-amber-500/20">
+                        <span class="font-cinzel font-bold text-black text-lg">EN</span>
+                    </div>
+                    <div>
+                        <span class="font-cinzel font-bold text-xl text-white tracking-wide">Elden Ring</span>
+                        <span class="block text-xs text-amber-400/70">Nightreign Guide</span>
+                    </div>
+                </a>
+                <nav class="hidden lg:flex items-center space-x-1">
+                    <a href="/" class="px-5 py-2 text-gray-300 hover:text-white hover:bg-white/5 rounded-lg transition-all">Home</a>
+                    <a href="walkthrough.html" class="px-5 py-2 text-gray-300 hover:text-white hover:bg-white/5 rounded-lg transition-all">Walkthrough</a>
+                    <a href="builds.html" class="px-5 py-2 text-amber-400 bg-amber-500/10 rounded-lg border border-amber-500/30 font-medium">Builds</a>
+                    <a href="bosses.html" class="px-5 py-2 text-gray-300 hover:text-white hover:bg-white/5 rounded-lg transition-all">Bosses</a>
+                    <a href="classes.html" class="px-5 py-2 text-gray-300 hover:text-white hover:bg-white/5 rounded-lg transition-all">Classes</a>
+                    <a href="tips.html" class="px-5 py-2 text-gray-300 hover:text-white hover:bg-white/5 rounded-lg transition-all">Tips</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-6 py-12">
+        <div class="text-center mb-12">
+            <h1 class="font-cinzel text-4xl md:text-5xl font-bold text-white mb-4">Build <span class="text-amber-400">Guides</span></h1>
+            <p class="text-gray-400 max-w-2xl mx-auto text-lg">Optimal builds for every class with stat distributions and equipment choices.</p>
+        </div>
+
+        <!-- Build Categories -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <!-- Strength Build -->
+            <div class="build-card card-hover rounded-2xl overflow-hidden">
+                <div class="p-6 border-b border-white/5">
+                    <div class="flex items-center gap-4">
+                        <div class="w-14 h-14 bg-red-500/20 rounded-xl flex items-center justify-center border border-red-500/30">
+                            <svg class="w-7 h-7 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/></svg>
+                        </div>
+                        <div>
+                            <h3 class="font-cinzel text-xl font-bold text-white">Strength Titan</h3>
+                            <p class="text-gray-500 text-sm">High damage, heavy weapons</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h4 class="text-white font-semibold mb-3">Stat Distribution</h4>
+                    <div class="space-y-2 mb-4">
+                        <div class="flex items-center gap-3"><span class="text-gray-400 text-xs w-20">Vigor</span><div class="stat-bar flex-1"><div class="stat-bar bg-red-500 h-full rounded" style="width: 70%"></div></div><span class="text-white text-xs w-8">25</span></div>
+                        <div class="flex items-center gap-3"><span class="text-gray-400 text-xs w-20">Strength</span><div class="stat-bar flex-1"><div class="stat-bar bg-red-500 h-full rounded" style="width: 90%"></div></div><span class="text-white text-xs w-8">30</span></div>
+                        <div class="flex items-center gap-3"><span class="text-gray-400 text-xs w-20">Endurance</span><div class="stat-bar flex-1"><div class="stat-bar bg-red-500 h-full rounded" style="width: 50%"></div></div><span class="text-white text-xs w-8">18</span></div>
+                    </div>
+                    <h4 class="text-white font-semibold mb-3">Recommended Gear</h4>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2 py-1 bg-obsidian-700/50 text-gray-300 text-xs rounded">Greatsword</span>
+                        <span class="px-2 py-1 bg-obsidian-700/50 text-gray-300 text-xs rounded">Greathammer</span>
+                        <span class="px-2 py-1 bg-obsidian-700/50 text-gray-300 text-xs rounded">Tower Shield</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dexterity Build -->
+            <div class="build-card card-hover rounded-2xl overflow-hidden">
+                <div class="p-6 border-b border-white/5">
+                    <div class="flex items-center gap-4">
+                        <div class="w-14 h-14 bg-green-500/20 rounded-xl flex items-center justify-center border border-green-500/30">
+                            <svg class="w-7 h-7 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                        </div>
+                        <div>
+                            <h3 class="font-cinzel text-xl font-bold text-white">Swift Blade</h3>
+                            <p class="text-gray-500 text-sm">Fast attacks, bleed damage</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h4 class="text-white font-semibold mb-3">Stat Distribution</h4>
+                    <div class="space-y-2 mb-4">
+                        <div class="flex items-center gap-3"><span class="text-gray-400 text-xs w-20">Vigor</span><div class="stat-bar flex-1"><div class="stat-bar bg-green-500 h-full rounded" style="width: 60%"></div></div><span class="text-white text-xs w-8">22</span></div>
+                        <div class="flex items-center gap-3"><span class="text-gray-400 text-xs w-20">Dexterity</span><div class="stat-bar flex-1"><div class="stat-bar bg-green-500 h-full rounded" style="width: 90%"></div></div><span class="text-white text-xs w-8">30</span></div>
+                        <div class="flex items-center gap-3"><span class="text-gray-400 text-xs w-20">Arcane</span><div class="stat-bar flex-1"><div class="stat-bar bg-green-500 h-full rounded" style="width: 40%"></div></div><span class="text-white text-xs w-8">15</span></div>
+                    </div>
+                    <h4 class="text-white font-semibold mb-3">Recommended Gear</h4>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2 py-1 bg-obsidian-700/50 text-gray-300 text-xs rounded">Twinblades</span>
+                        <span class="px-2 py-1 bg-obsidian-700/50 text-gray-300 text-xs rounded">Katar</span>
+                        <span class="px-2 py-1 bg-obsidian-700/50 text-gray-300 text-xs rounded">Boost Talisman</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Intelligence Build -->
+            <div class="build-card card-hover rounded-2xl overflow-hidden">
+                <div class="p-6 border-b border-white/5">
+                    <div class="flex items-center gap-4">
+                        <div class="w-14 h-14 bg-blue-500/20 rounded-xl flex items-center justify-center border border-blue-500/30">
+                            <svg class="w-7 h-7 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                        </div>
+                        <div>
+                            <h3 class="font-cinzel text-xl font-bold text-white">Spellblade</h3>
+                            <p class="text-gray-500 text-sm">Magic attacks, ranged</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h4 class="text-white font-semibold mb-3">Stat Distribution</h4>
+                    <div class="space-y-2 mb-4">
+                        <div class="flex items-center gap-3"><span class="text-gray-400 text-xs w-20">Vigor</span><div class="stat-bar flex-1"><div class="stat-bar bg-blue-500 h-full rounded" style="width: 55%"></div></div><span class="text-white text-xs w-8">20</span></div>
+                        <div class="flex items-center gap-3"><span class="text-gray-400 text-xs w-20">Intelligence</span><div class="stat-bar flex-1"><div class="stat-bar bg-blue-500 h-full rounded" style="width: 90%"></div></div><span class="text-white text-xs w-8">30</span></div>
+                        <div class="flex items-center gap-3"><span class="text-gray-400 text-xs w-20">Mind</span><div class="stat-bar flex-1"><div class="stat-bar bg-blue-500 h-full rounded" style="width: 50%"></div></div><span class="text-white text-xs w-8">18</span></div>
+                    </div>
+                    <h4 class="text-white font-semibold mb-3">Recommended Gear</h4>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2 py-1 bg-obsidian-700/50 text-gray-300 text-xs rounded">Glintstone Staff</span>
+                        <span class="px-2 py-1 bg-obsidian-700/50 text-gray-300 text-xs rounded">Crystal Dart</span>
+                        <span class="px-2 py-1 bg-obsidian-700/50 text-gray-300 text-xs rounded">Magic Shield</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Faith Build -->
+            <div class="build-card card-hover rounded-2xl overflow-hidden">
+                <div class="p-6 border-b border-white/5">
+                    <div class="flex items-center gap-4">
+                        <div class="w-14 h-14 bg-yellow-500/20 rounded-xl flex items-center justify-center border border-yellow-500/30">
+                            <svg class="w-7 h-7 text-yellow-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707"/></svg>
+                        </div>
+                        <div>
+                            <h3 class="font-cinzel text-xl font-bold text-white">Divine Knight</h3>
+                            <p class="text-gray-500 text-sm">Healing, buffs, lightning</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h4 class="text-white font-semibold mb-3">Stat Distribution</h4>
+                    <div class="space-y-2 mb-4">
+                        <div class="flex items-center gap-3"><span class="text-gray-400 text-xs w-20">Vigor</span><div class="stat-bar flex-1"><div class="stat-bar bg-yellow-500 h-full rounded" style="width: 65%"></div></div><span class="text-white text-xs w-8">24</span></div>
+                        <div class="flex items-center gap-3"><span class="text-gray-400 text-xs w-20">Faith</span><div class="stat-bar flex-1"><div class="stat-bar bg-yellow-500 h-full rounded" style="width: 90%"></div></div><span class="text-white text-xs w-8">30</span></div>
+                        <div class="flex items-center gap-3"><span class="text-gray-400 text-xs w-20">Endurance</span><div class="stat-bar flex-1"><div class="stat-bar bg-yellow-500 h-full rounded" style="width: 45%"></div></div><span class="text-white text-xs w-8">16</span></div>
+                    </div>
+                    <h4 class="text-white font-semibold mb-3">Recommended Gear</h4>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2 py-1 bg-obsidian-700/50 text-gray-300 text-xs rounded">Holy Blade</span>
+                        <span class="px-2 py-1 bg-obsidian-700/50 text-gray-300 text-xs rounded">Lightning Spear</span>
+                        <span class="px-2 py-1 bg-obsidian-700/50 text-gray-300 text-xs rounded">Heal Aid</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- General Tips -->
+        <section class="mt-12">
+            <h2 class="font-cinzel text-2xl font-bold text-white mb-6">Build Tips</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="build-card rounded-xl p-5">
+                    <h3 class="text-white font-semibold mb-2">Early Game</h3>
+                    <p class="text-gray-400 text-sm">Focus on Vigor first. Survival is key in co-op. Aim for 20-25 Vigor before investing in damage stats.</p>
+                </div>
+                <div class="build-card rounded-xl p-5">
+                    <h3 class="text-white font-semibold mb-2">Mid Game</h3>
+                    <p class="text-gray-400 text-sm">Balance your primary damage stat with Endurance. Don't neglect Mind if using spells frequently.</p>
+                </div>
+                <div class="build-card rounded-xl p-5">
+                    <h3 class="text-white font-semibold mb-2">Late Game</h3>
+                    <p class="text-gray-400 text-sm">Specialize fully in your primary stat. +8 weapons scale better with focused stats than spread分配.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-obsidian-900 border-t border-white/5 py-12 mt-12">
+        <div class="max-w-7xl mx-auto px-6 text-center text-gray-500 text-sm">
+            <p>&copy; 2025 Elden Ring Nightreign Guide. All rights reserved. Not affiliated with FromSoftware.</p>
+        </div>
+    </footer>
+</body>
+</html>
